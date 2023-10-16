@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WEB PORTOFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul>
+                    <li>
+                        <a href="#header">home</a>
+                    </li>
+                    <li>
+                        <a href="#about">about</a>
+                    </li>
+                    <li>
+                       <a href="#education">education</a>
+                    </li>
+                <li>
+                        <a href="#portofolio">things that i do</a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/6288708427887?text=">contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p> hi, there!</p>
+                <h1> Halo, I'm <span>Khairunissa</span><br> Pohan</h1>
+            </div>
+        </div>
+
+    </div>
+    
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2023-10-16 at 22.40.08.jpeg" >
+                
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p> Hello I'm Khairunissa Pohan. I'm a new student at universitas sumatera utara Faculty of Computer Science and Information Technology, Information Technology Study Program I am interested in technology. I am interested in website developt and mobile developt. I'm still a beginner at programming, but I'll learn to get better</p>
+
+                    <div id="education">
+                        <div class="container">
+                            <h1 class="sub-title"> My Education</h1>
+                            <div class="education-list">
+                                <div>
+                                    <h2> primary school</h2>
+                                    <p> I attended primary school at SD Pelangi</p>
+                                </div>
+                                <div>
+                                    <h2> Junior High School</h2>
+                                    <p> I attended Junior High School at SMPN 11 MEDAN</p>
+                                </div>
+                                <div>
+                                    <h2> Senior High School</h2>
+                                    <p> I attended Senior High School at SMA SWASTA Dharmawangsa MEDAN</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div id="portofolio">
+                        <div class="container">
+                            <h1 class="sub-title"> Things that i do!</h1>
+                            <div class="worklist">
+                                <div class="work">
+                                    <img src="https://th.bing.com/th/id/OIP.0eLJQtUWv-5DcjkPLP-p1AHaDP?w=320&h=152&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
+                                <H3> web developt</H3><p>
+                                    I am currently learning about Web Developt and I love it
+                                </p></div>
+                                <div class="work">
+                                    <img src="https://desky-support.nyc3.digitaloceanspaces.com/iqonic.desky.support/6994/Mobile-App.png" alt="">
+                               <h3>mobile developt</h3><p>
+                                i also learn about mobile developt and i love it too
+                               </p> </div>
+                                <div class="work">
+                                    <img src="https://th.bing.com/th?id=OIP.6FpO4pw_qD3-rnrUMMRyiAHaEH&w=335&h=186&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="">
+                               <h3>
+                                AI
+                               </h3><p>
+                                and last, i interested with AI
+                               </p> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" id="btn" onclick="scrolltoTop()"> <i class="fa fa-arrow-up"> </i></button>
+      </div>
+
+    <script src="https://unpkg.com/scrollreveal"> </script>
+    <script>
+        let button = document.getElementById("btn");
+
+        window.onscroll = function(){
+            if (document.documentElement.scrollTop > 70){
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        }
+
+        function scrolltoTop(){
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
